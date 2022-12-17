@@ -1,0 +1,26 @@
+setting:
+  - fcid: 111
+    fc_info:
+      name: "チャンネル名A"
+      status: "NoMonitaring"
+  - fcid: 112
+    fc_info:
+      name: "チャンネル名B"
+      status: "Attention"
+  - fcid: 113
+    fc_info:
+      name: "チャンネル名C"
+      status: "Attention"
+  - fcid: 114
+    fc_info:
+      name: "チャンネル名D"
+      status: "NoMonitaring"
+  - fcid: 115
+    fc_info:
+      name: "チャンネル名E"
+      status: "Change"
+  - fcid: 116
+    fc_info:
+      name: "チャンネル名F"
+      status: "NoMonitaring"
+
