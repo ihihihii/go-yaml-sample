@@ -27,7 +27,6 @@ func main() {
 	// yamlを読み込む
 	buf, err := ioutil.ReadFile("./sample.yaml")
 	if err != nil {
-		panic(err)
 	}
 
 	// structにUnmasrshal
@@ -36,9 +35,9 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	abc = "ccc"
+	cbc = "ccc"
 
-	// fmt.Println(data)
+	fmt.Println()
 	// fmt.Println(data.Setting)
 	// fmt.Println(data.Setting[0].Fcid)
 	// fmt.Println(data.Setting[0].FcInfo.Name)
