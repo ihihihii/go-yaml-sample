@@ -25,7 +25,7 @@ type fcInfo struct {
 
 func main() {
 	// yamlを読み込む
-	buf, err := ioutil.ReadFile("./sample.yaml")
+	buf, err := ioutil.ReadFile("./sample１.yaml")
 	if err != nil {
 		panic(err)
 	}
