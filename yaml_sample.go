@@ -33,10 +33,7 @@ func main() {
 	// structにUnmasrshal
 	var data Data
 	err = yaml.Unmarshal(buf, &data)
-	if err != nil {
-		panic(err)
-	}
-	fmt.Println(data)
+	fmt.Println()
 	fmt.Println(data.Setting)
 	fmt.Println(data.Setting[2].FcInfo.Name)
 	fmt.Println(data.Setting[3].FcInfo.Status)
