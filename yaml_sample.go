@@ -37,7 +37,7 @@ func main() {
 	}
 	cbc = "ccc"
 
-	fmt.Println()
+	fmt.Println("s")
 	// fmt.Println(data.Setting)
 	// fmt.Println(data.Setting[0].Fcid)
 	// fmt.Println(data.Setting[0].FcInfo.Name)
