@@ -19,7 +19,7 @@ type Sites struct {
 }
 
 type fcInfo struct {
-	Name   string `yaml:"name"`
+	Name   int    `yaml:"name"`
 	Status string `yaml:"status"`
 }
 
@@ -36,11 +36,13 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(data)
-	fmt.Println(data.Setting)
-	fmt.Println(data.Setting[0].Fcid)
-	fmt.Println(data.Setting[0].FcInfo.Name)
-	fmt.Println(data.Setting[0].FcInfo.Status)
+	abc = "ccc"
+
+	// fmt.Println(data)
+	// fmt.Println(data.Setting)
+	// fmt.Println(data.Setting[0].Fcid)
+	// fmt.Println(data.Setting[0].FcInfo.Name)
+	// fmt.Println(data.Setting[0].FcInfo.Status)
 
 	// 読み込んだyamlファイルのステータスを取り出して配列に格納
 	var status []string
